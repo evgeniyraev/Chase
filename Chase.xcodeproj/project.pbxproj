@@ -17,7 +17,26 @@
 		26A94E6D1CB0318900423DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A94E6B1CB0318900423DC6 /* Main.storyboard */; };
 		26A94E6F1CB0318900423DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A94E6E1CB0318900423DC6 /* Assets.xcassets */; };
 		26A94E741CB0319F00423DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A94E581CB0317200423DC6 /* Assets.xcassets */; };
+		26A94E811CB0331600423DC6 /* Chase__iOS__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A94E801CB0331600423DC6 /* Chase__iOS__Tests.swift */; };
+		26A94E8F1CB0332300423DC6 /* Chase__tvOS_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A94E8E1CB0332300423DC6 /* Chase__tvOS_Tests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26A94E831CB0331600423DC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A94E441CB0314900423DC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26A94E4D1CB0317200423DC6;
+			remoteInfo = "Chase (iOS)";
+		};
+		26A94E911CB0332300423DC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A94E441CB0314900423DC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26A94E641CB0318900423DC6;
+			remoteInfo = "Chase (tvOS)";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		26A94E4E1CB0317200423DC6 /* Chase (iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chase (iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +52,12 @@
 		26A94E6C1CB0318900423DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26A94E6E1CB0318900423DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26A94E701CB0318900423DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A94E7E1CB0331600423DC6 /* Chase (iOS) Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chase (iOS) Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A94E801CB0331600423DC6 /* Chase__iOS__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chase__iOS__Tests.swift; sourceTree = "<group>"; };
+		26A94E821CB0331600423DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A94E8C1CB0332300423DC6 /* Chase (tvOS)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chase (tvOS)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A94E8E1CB0332300423DC6 /* Chase__tvOS_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chase__tvOS_Tests.swift; sourceTree = "<group>"; };
+		26A94E901CB0332300423DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,14 +75,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26A94E7B1CB0331600423DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A94E891CB0332300423DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		26A94E431CB0314900423DC6 = {
 			isa = PBXGroup;
 			children = (
+				26A94E791CB032B900423DC6 /* Chase */,
 				26A94E501CB0317200423DC6 /* Chase (iOS) */,
 				26A94E661CB0318900423DC6 /* Chase (tvOS) */,
+				26A94E7F1CB0331600423DC6 /* Chase (iOS) Tests */,
+				26A94E8D1CB0332300423DC6 /* Chase (tvOS)Tests */,
 				26A94E4F1CB0317200423DC6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +109,8 @@
 			children = (
 				26A94E4E1CB0317200423DC6 /* Chase (iOS).app */,
 				26A94E651CB0318900423DC6 /* Chase (tvOS).app */,
+				26A94E7E1CB0331600423DC6 /* Chase (iOS) Tests.xctest */,
+				26A94E8C1CB0332300423DC6 /* Chase (tvOS)Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +138,31 @@
 				26A94E701CB0318900423DC6 /* Info.plist */,
 			);
 			path = "Chase (tvOS)";
+			sourceTree = "<group>";
+		};
+		26A94E791CB032B900423DC6 /* Chase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Chase;
+			sourceTree = "<group>";
+		};
+		26A94E7F1CB0331600423DC6 /* Chase (iOS) Tests */ = {
+			isa = PBXGroup;
+			children = (
+				26A94E801CB0331600423DC6 /* Chase__iOS__Tests.swift */,
+				26A94E821CB0331600423DC6 /* Info.plist */,
+			);
+			path = "Chase (iOS) Tests";
+			sourceTree = "<group>";
+		};
+		26A94E8D1CB0332300423DC6 /* Chase (tvOS)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				26A94E8E1CB0332300423DC6 /* Chase__tvOS_Tests.swift */,
+				26A94E901CB0332300423DC6 /* Info.plist */,
+			);
+			path = "Chase (tvOS)Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +202,42 @@
 			productReference = 26A94E651CB0318900423DC6 /* Chase (tvOS).app */;
 			productType = "com.apple.product-type.application";
 		};
+		26A94E7D1CB0331600423DC6 /* Chase (iOS) Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A94E851CB0331600423DC6 /* Build configuration list for PBXNativeTarget "Chase (iOS) Tests" */;
+			buildPhases = (
+				26A94E7A1CB0331600423DC6 /* Sources */,
+				26A94E7B1CB0331600423DC6 /* Frameworks */,
+				26A94E7C1CB0331600423DC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26A94E841CB0331600423DC6 /* PBXTargetDependency */,
+			);
+			name = "Chase (iOS) Tests";
+			productName = "Chase (iOS) Tests";
+			productReference = 26A94E7E1CB0331600423DC6 /* Chase (iOS) Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26A94E8B1CB0332300423DC6 /* Chase (tvOS)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A94E931CB0332300423DC6 /* Build configuration list for PBXNativeTarget "Chase (tvOS)Tests" */;
+			buildPhases = (
+				26A94E881CB0332300423DC6 /* Sources */,
+				26A94E891CB0332300423DC6 /* Frameworks */,
+				26A94E8A1CB0332300423DC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26A94E921CB0332300423DC6 /* PBXTargetDependency */,
+			);
+			name = "Chase (tvOS)Tests";
+			productName = "Chase (tvOS)Tests";
+			productReference = 26A94E8C1CB0332300423DC6 /* Chase (tvOS)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,6 +252,14 @@
 					};
 					26A94E641CB0318900423DC6 = {
 						CreatedOnToolsVersion = 7.3;
+					};
+					26A94E7D1CB0331600423DC6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 26A94E4D1CB0317200423DC6;
+					};
+					26A94E8B1CB0332300423DC6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 26A94E641CB0318900423DC6;
 					};
 				};
 			};
@@ -165,6 +278,8 @@
 			targets = (
 				26A94E4D1CB0317200423DC6 /* Chase (iOS) */,
 				26A94E641CB0318900423DC6 /* Chase (tvOS) */,
+				26A94E7D1CB0331600423DC6 /* Chase (iOS) Tests */,
+				26A94E8B1CB0332300423DC6 /* Chase (tvOS)Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -190,6 +305,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26A94E7C1CB0331600423DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A94E8A1CB0332300423DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -211,7 +340,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26A94E7A1CB0331600423DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A94E811CB0331600423DC6 /* Chase__iOS__Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A94E881CB0332300423DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A94E8F1CB0332300423DC6 /* Chase__tvOS_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26A94E841CB0331600423DC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26A94E4D1CB0317200423DC6 /* Chase (iOS) */;
+			targetProxy = 26A94E831CB0331600423DC6 /* PBXContainerItemProxy */;
+		};
+		26A94E921CB0332300423DC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26A94E641CB0318900423DC6 /* Chase (tvOS) */;
+			targetProxy = 26A94E911CB0332300423DC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		26A94E551CB0317200423DC6 /* Main.storyboard */ = {
@@ -443,6 +601,194 @@
 			};
 			name = Release;
 		};
+		26A94E861CB0331600423DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Chase (iOS) Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zerogravitylaboratory.Chase--iOS--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chase (iOS).app/Chase (iOS)";
+			};
+			name = Debug;
+		};
+		26A94E871CB0331600423DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Chase (iOS) Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zerogravitylaboratory.Chase--iOS--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chase (iOS).app/Chase (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26A94E941CB0332300423DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Chase (tvOS)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zerogravitylaboratory.Chase--tvOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chase (tvOS).app/Chase (tvOS)";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		26A94E951CB0332300423DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Chase (tvOS)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zerogravitylaboratory.Chase--tvOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chase (tvOS).app/Chase (tvOS)";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -472,6 +818,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		26A94E851CB0331600423DC6 /* Build configuration list for PBXNativeTarget "Chase (iOS) Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A94E861CB0331600423DC6 /* Debug */,
+				26A94E871CB0331600423DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26A94E931CB0332300423DC6 /* Build configuration list for PBXNativeTarget "Chase (tvOS)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A94E941CB0332300423DC6 /* Debug */,
+				26A94E951CB0332300423DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
