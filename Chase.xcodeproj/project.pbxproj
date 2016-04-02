@@ -6,20 +6,149 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		26A94E521CB0317200423DC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A94E511CB0317200423DC6 /* AppDelegate.swift */; };
+		26A94E541CB0317200423DC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A94E531CB0317200423DC6 /* ViewController.swift */; };
+		26A94E571CB0317200423DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A94E551CB0317200423DC6 /* Main.storyboard */; };
+		26A94E591CB0317200423DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A94E581CB0317200423DC6 /* Assets.xcassets */; };
+		26A94E5C1CB0317200423DC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A94E5A1CB0317200423DC6 /* LaunchScreen.storyboard */; };
+		26A94E681CB0318900423DC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A94E671CB0318900423DC6 /* AppDelegate.swift */; };
+		26A94E6A1CB0318900423DC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A94E691CB0318900423DC6 /* ViewController.swift */; };
+		26A94E6D1CB0318900423DC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A94E6B1CB0318900423DC6 /* Main.storyboard */; };
+		26A94E6F1CB0318900423DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A94E6E1CB0318900423DC6 /* Assets.xcassets */; };
+		26A94E741CB0319F00423DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A94E581CB0317200423DC6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26A94E4E1CB0317200423DC6 /* Chase (iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chase (iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A94E511CB0317200423DC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26A94E531CB0317200423DC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26A94E561CB0317200423DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26A94E581CB0317200423DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26A94E5B1CB0317200423DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26A94E5D1CB0317200423DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A94E651CB0318900423DC6 /* Chase (tvOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chase (tvOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A94E671CB0318900423DC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26A94E691CB0318900423DC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26A94E6C1CB0318900423DC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26A94E6E1CB0318900423DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26A94E701CB0318900423DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A94E4B1CB0317200423DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A94E621CB0318900423DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		26A94E431CB0314900423DC6 = {
 			isa = PBXGroup;
 			children = (
+				26A94E501CB0317200423DC6 /* Chase (iOS) */,
+				26A94E661CB0318900423DC6 /* Chase (tvOS) */,
+				26A94E4F1CB0317200423DC6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		26A94E4F1CB0317200423DC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26A94E4E1CB0317200423DC6 /* Chase (iOS).app */,
+				26A94E651CB0318900423DC6 /* Chase (tvOS).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26A94E501CB0317200423DC6 /* Chase (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				26A94E511CB0317200423DC6 /* AppDelegate.swift */,
+				26A94E531CB0317200423DC6 /* ViewController.swift */,
+				26A94E551CB0317200423DC6 /* Main.storyboard */,
+				26A94E5A1CB0317200423DC6 /* LaunchScreen.storyboard */,
+				26A94E581CB0317200423DC6 /* Assets.xcassets */,
+				26A94E5D1CB0317200423DC6 /* Info.plist */,
+			);
+			path = "Chase (iOS)";
+			sourceTree = "<group>";
+		};
+		26A94E661CB0318900423DC6 /* Chase (tvOS) */ = {
+			isa = PBXGroup;
+			children = (
+				26A94E671CB0318900423DC6 /* AppDelegate.swift */,
+				26A94E691CB0318900423DC6 /* ViewController.swift */,
+				26A94E6B1CB0318900423DC6 /* Main.storyboard */,
+				26A94E6E1CB0318900423DC6 /* Assets.xcassets */,
+				26A94E701CB0318900423DC6 /* Info.plist */,
+			);
+			path = "Chase (tvOS)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26A94E4D1CB0317200423DC6 /* Chase (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A94E5E1CB0317200423DC6 /* Build configuration list for PBXNativeTarget "Chase (iOS)" */;
+			buildPhases = (
+				26A94E4A1CB0317200423DC6 /* Sources */,
+				26A94E4B1CB0317200423DC6 /* Frameworks */,
+				26A94E4C1CB0317200423DC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chase (iOS)";
+			productName = "Chase (iOS)";
+			productReference = 26A94E4E1CB0317200423DC6 /* Chase (iOS).app */;
+			productType = "com.apple.product-type.application";
+		};
+		26A94E641CB0318900423DC6 /* Chase (tvOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A94E711CB0318900423DC6 /* Build configuration list for PBXNativeTarget "Chase (tvOS)" */;
+			buildPhases = (
+				26A94E611CB0318900423DC6 /* Sources */,
+				26A94E621CB0318900423DC6 /* Frameworks */,
+				26A94E631CB0318900423DC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chase (tvOS)";
+			productName = "Chase (tvOS)";
+			productReference = 26A94E651CB0318900423DC6 /* Chase (tvOS).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		26A94E441CB0314900423DC6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					26A94E4D1CB0317200423DC6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					26A94E641CB0318900423DC6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
 			};
 			buildConfigurationList = 26A94E471CB0314900423DC6 /* Build configuration list for PBXProject "Chase" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -27,14 +156,89 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 26A94E431CB0314900423DC6;
+			productRefGroup = 26A94E4F1CB0317200423DC6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				26A94E4D1CB0317200423DC6 /* Chase (iOS) */,
+				26A94E641CB0318900423DC6 /* Chase (tvOS) */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26A94E4C1CB0317200423DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A94E5C1CB0317200423DC6 /* LaunchScreen.storyboard in Resources */,
+				26A94E591CB0317200423DC6 /* Assets.xcassets in Resources */,
+				26A94E571CB0317200423DC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A94E631CB0318900423DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A94E6F1CB0318900423DC6 /* Assets.xcassets in Resources */,
+				26A94E741CB0319F00423DC6 /* Assets.xcassets in Resources */,
+				26A94E6D1CB0318900423DC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26A94E4A1CB0317200423DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A94E541CB0317200423DC6 /* ViewController.swift in Sources */,
+				26A94E521CB0317200423DC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A94E611CB0318900423DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A94E6A1CB0318900423DC6 /* ViewController.swift in Sources */,
+				26A94E681CB0318900423DC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26A94E551CB0317200423DC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A94E561CB0317200423DC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26A94E5A1CB0317200423DC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A94E5B1CB0317200423DC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		26A94E6B1CB0318900423DC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A94E6C1CB0318900423DC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		26A94E481CB0314900423DC6 /* Debug */ = {
@@ -49,6 +253,196 @@
 			};
 			name = Release;
 		};
+		26A94E5F1CB0317200423DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Chase (iOS)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zerogravitylaboratory.Chase--iOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26A94E601CB0317200423DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Chase (iOS)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zerogravitylaboratory.Chase--iOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26A94E721CB0318900423DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Chase (tvOS)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zerogravitylaboratory.Chase--tvOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		26A94E731CB0318900423DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Chase (tvOS)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zerogravitylaboratory.Chase--tvOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -57,6 +451,24 @@
 			buildConfigurations = (
 				26A94E481CB0314900423DC6 /* Debug */,
 				26A94E491CB0314900423DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A94E5E1CB0317200423DC6 /* Build configuration list for PBXNativeTarget "Chase (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A94E5F1CB0317200423DC6 /* Debug */,
+				26A94E601CB0317200423DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A94E711CB0318900423DC6 /* Build configuration list for PBXNativeTarget "Chase (tvOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A94E721CB0318900423DC6 /* Debug */,
+				26A94E731CB0318900423DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
