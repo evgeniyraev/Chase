@@ -19,6 +19,12 @@
 		26A94E741CB0319F00423DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A94E581CB0317200423DC6 /* Assets.xcassets */; };
 		26A94E811CB0331600423DC6 /* Chase__iOS__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A94E801CB0331600423DC6 /* Chase__iOS__Tests.swift */; };
 		26A94E8F1CB0332300423DC6 /* Chase__tvOS_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A94E8E1CB0332300423DC6 /* Chase__tvOS_Tests.swift */; };
+		26A94E971CB062C700423DC6 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A94E961CB062C700423DC6 /* SceneManager.swift */; };
+		26A94E991CB0668400423DC6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 26A94E981CB0668400423DC6 /* GameScene.sks */; };
+		26A94E9C1CB0683700423DC6 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A94E961CB062C700423DC6 /* SceneManager.swift */; };
+		26A94E9D1CB0684400423DC6 /* BaseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A94E9A1CB067A900423DC6 /* BaseScene.swift */; };
+		26A94E9E1CB0684500423DC6 /* BaseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A94E9A1CB067A900423DC6 /* BaseScene.swift */; };
+		26A94E9F1CB06A3B00423DC6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 26A94E981CB0668400423DC6 /* GameScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +64,9 @@
 		26A94E8C1CB0332300423DC6 /* Chase (tvOS)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chase (tvOS)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A94E8E1CB0332300423DC6 /* Chase__tvOS_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chase__tvOS_Tests.swift; sourceTree = "<group>"; };
 		26A94E901CB0332300423DC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A94E961CB062C700423DC6 /* SceneManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneManager.swift; path = Chase/SceneManager.swift; sourceTree = "<group>"; };
+		26A94E981CB0668400423DC6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = Chase/GameScene.sks; sourceTree = "<group>"; };
+		26A94E9A1CB067A900423DC6 /* BaseScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseScene.swift; path = Chase/BaseScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +152,9 @@
 		26A94E791CB032B900423DC6 /* Chase */ = {
 			isa = PBXGroup;
 			children = (
+				26A94E961CB062C700423DC6 /* SceneManager.swift */,
+				26A94E9A1CB067A900423DC6 /* BaseScene.swift */,
+				26A94E981CB0668400423DC6 /* GameScene.sks */,
 			);
 			name = Chase;
 			sourceTree = "<group>";
@@ -289,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A94E991CB0668400423DC6 /* GameScene.sks in Resources */,
 				26A94E5C1CB0317200423DC6 /* LaunchScreen.storyboard in Resources */,
 				26A94E591CB0317200423DC6 /* Assets.xcassets in Resources */,
 				26A94E571CB0317200423DC6 /* Main.storyboard in Resources */,
@@ -299,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A94E9F1CB06A3B00423DC6 /* GameScene.sks in Resources */,
 				26A94E6F1CB0318900423DC6 /* Assets.xcassets in Resources */,
 				26A94E741CB0319F00423DC6 /* Assets.xcassets in Resources */,
 				26A94E6D1CB0318900423DC6 /* Main.storyboard in Resources */,
@@ -327,7 +341,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				26A94E541CB0317200423DC6 /* ViewController.swift in Sources */,
+				26A94E971CB062C700423DC6 /* SceneManager.swift in Sources */,
 				26A94E521CB0317200423DC6 /* AppDelegate.swift in Sources */,
+				26A94E9D1CB0684400423DC6 /* BaseScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +352,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				26A94E6A1CB0318900423DC6 /* ViewController.swift in Sources */,
+				26A94E9C1CB0683700423DC6 /* SceneManager.swift in Sources */,
 				26A94E681CB0318900423DC6 /* AppDelegate.swift in Sources */,
+				26A94E9E1CB0684500423DC6 /* BaseScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -826,6 +844,7 @@
 				26A94E871CB0331600423DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26A94E931CB0332300423DC6 /* Build configuration list for PBXNativeTarget "Chase (tvOS)Tests" */ = {
 			isa = XCConfigurationList;
@@ -834,6 +853,7 @@
 				26A94E951CB0332300423DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
